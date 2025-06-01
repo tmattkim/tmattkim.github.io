@@ -16,6 +16,7 @@ body{
     p + ul {
         margin-top: -10px;
     }
+    padding-bottom: 200px;
 }
 
 h2,.white{
@@ -83,7 +84,7 @@ a{
 /* section 2 */
 .section-2{
     padding-top: 10vh;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
 
