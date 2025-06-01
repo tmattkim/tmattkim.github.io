@@ -35,6 +35,20 @@ body{
     }
 }
 
+p1,.animated-gradient-text {
+    background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 8s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 h2,.white{
     color: #fff;
 }
@@ -101,8 +115,11 @@ a{
 /* section 2 */
 .section-2{
     padding-top: 10vh;
-    width: 50%;
+    /* width: 50%; */
     margin: 0 auto;
+    max-width: 800px;           /* optional: better than width: 50% */
+    /*padding: 0 1rem;            /* some horizontal breathing room */
+    /*text-align: left;           /* ensures text stays left-aligned */
 }
 
 .section-2 h2{
@@ -121,8 +138,9 @@ a{
     padding: 5px;
     font-size: 1.2rem;
     padding-left: 0;
-    width: 100px;
-    white-space: nowrap;
+    /* max-width: 600px; */
+    white-space: normal;
+    /* word-wrap: break-word; /* optional: breaks long words */
 }
 /* animations / utilities */
 .section-2 a:hover{
