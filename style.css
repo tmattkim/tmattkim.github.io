@@ -68,7 +68,7 @@ a{
     justify-content: center; /* center vertically */
     height: 100vh;           /* full screen height */
     text-align: center;
-    max-width: 600px;        /* limits width of content */
+    max-width: 800px;        /* limits width of content */
     margin: 0 auto;          /* center in page */
     padding: 0 1rem;         /* optional: some horizontal padding */
 }
