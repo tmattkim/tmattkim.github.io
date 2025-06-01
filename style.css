@@ -68,7 +68,7 @@ a{
     justify-content: center; /* center vertically */
     height: 100vh;           /* full screen height */
     text-align: center;
-    max-width: 800px;        /* limits width of content */
+    max-width: 600px;        /* limits width of content */
     margin: 0 auto;          /* center in page */
     padding: 0 1rem;         /* optional: some horizontal padding */
 }
@@ -117,7 +117,7 @@ a{
     padding-top: 10vh;
     /* width: 50%; */
     margin: 0 auto;
-    max-width: 800px;           /* optional: better than width: 50% */
+    max-width: 600px;           /* optional: better than width: 50% */
     /*padding: 0 1rem;            /* some horizontal breathing room */
     /*text-align: left;           /* ensures text stays left-aligned */
 }
